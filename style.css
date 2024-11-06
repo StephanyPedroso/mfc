@@ -1,12 +1,11 @@
 * {
-  margin: 5;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
   font-family: sans-serif;
-  background-color: #dddddd;
-
+  background-color: #ffffff;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -16,10 +15,17 @@ body {
   margin: 150px;
   width: 300px;
   padding: 20px;
+  border: 1xp solid #ccc;
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #f9f9f9;
 }
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
 input {
   width: 100%;
   padding: 10px;
@@ -30,17 +36,18 @@ input {
   font-size: 16px;
 }
 
-button[type="submit"] {
+button {
+  width: 100%;
+  padding: 10px;
   background-color: #4caf50;
   color: white;
-  padding: 10px;
   border: none;
-  width: 100%;
   border-radius: 4px;
-  font-size: 4px;
+  font-size: 16px;
   cursor: pointer;
+}
 
   button:hover {
-    background-color: green;
+    background-color: #45a049;
   }
-}
+

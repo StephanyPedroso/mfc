@@ -3,24 +3,30 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
 
   <body>
     <div class="container">
       <h1>Login</h1>
 
-      <form>
-        <input type="text" placeholder="Usuário" required autocomplete="off" />
+      <form id="login-form">
         <input
-          type="password"
-          placeholder="Senha"
+          type="text"
+          id="input username"
+          placeholder="usuario"
           required
           autocomplete="off"
         />
-        <br />
-        <br />
+        <input
+          type="password"
+          id="input-passoword"
+          placeholder="senha"
+          required
+          autocomplete="off"
+        />
         <button type="submit">Entrar</button>
       </form>
     </div>
